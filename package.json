@@ -1,0 +1,19 @@
+{
+  "name": "content-managment-system-employees",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "seed": "node seeds/seed.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cli-table": "^0.3.11",
+    "dotenv": "^16.3.1",
+    "inquirer": "^8.2.4",
+    "mysql": "^2.18.1"
+  }
+}
